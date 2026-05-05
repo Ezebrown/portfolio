@@ -1,26 +1,32 @@
-# Portfolio - Omidiran Toheeb
+#  UI/UX Design Portfolio
 
-A modern Product designer and frontend developer portfolio showcasing my projects, skills, and experience.
+A personal UI/UX design portfolio built with frontend development skills to showcase my design thinking, product sense, and implementation ability.
 
-## About Me
-Frontend Web Developer & Product Designer focused on building clean, fast, and user-friendly web experiences.
+##  About Me
+I am a UI/UX designer with frontend development experience. I specialize in designing and building clean, user-centered digital experiences with a strong focus on usability, accessibility, and visual clarity.
 
-## Tech Stack
-- HTML5
-- CSS3 
-- JavaScript (ES6+)
+##  What This Portfolio Shows
+- UI/UX case studies (problem → solution thinking)
+- High-fidelity interface designs
+- Frontend implementation of designs
+- Responsive and accessible web layouts
+
+##  Skills
+- UI/UX Design
+- Wireframing & Prototyping
+- HTML, CSS, JavaScript
+- Design systems & component thinking
 - Git & GitHub
 
-## Projects
+##  Featured Work
 - Portfolio Website (this repo)
-- Add your other projects here...
+- case studies of my designed projects (https://www.behance.net/omidirantoheeb)
 
-## Features
-- Responsive design
-- Clean UI/UX
-- Fast performance
-- SEO-friendly structure
+##  Goal
+To bridge the gap between design and development by creating usable, production-ready interfaces.
 
-## Contact
+##  Contact
 - GitHub: https://github.com/Ezebrown
 - Email: omidirantoheeb@gmail.com
+
+Built with design thinking + frontend execution 🚀
