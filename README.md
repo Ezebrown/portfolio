@@ -1,32 +1,33 @@
-#  UI/UX Design Portfolio
+# Product Design & Frontend Portfolio
+A personal portfolio showcasing my work across product design and frontend development — focusing on how ideas are shaped, refined, and brought to life as real, working interfaces.
 
-A personal UI/UX design portfolio built with frontend development skills to showcase my design thinking, product sense, and implementation ability.
+# About Me
+I’m Toheeb — a Product Designer and Frontend Developer focused on building user-centered digital products and implementing them through clean, responsive frontend code.
+I work across both product thinking and development, combining structured problem-solving, usability focus, and hands-on implementation using HTML, CSS, and JavaScript to bring interfaces to life.
 
-##  About Me
-I am a UI/UX designer with frontend development experience. I specialize in designing and building clean, user-centered digital experiences with a strong focus on usability, accessibility, and visual clarity.
+# What This Portfolio Shows
+Product thinking and problem → solution case studies
+High-fidelity interface designs
+Frontend implementation of designed products
+Responsive, accessible web interfaces built with code
 
-##  What This Portfolio Shows
-- UI/UX case studies (problem → solution thinking)
-- High-fidelity interface designs
-- Frontend implementation of designs
-- Responsive and accessible web layouts
+# Skills
+Product Design & UX Thinking
+Frontend Development (HTML, CSS, JavaScript)
+Wireframing & Prototyping
+Design Systems & Component-Based Thinking
+Git & GitHub
 
-##  Skills
-- UI/UX Design
-- Wireframing & Prototyping
-- HTML, CSS, JavaScript
-- Design systems & component thinking
-- Git & GitHub
+# Featured Work
+Portfolio Website (this repo)
+Case studies of designed and built projects:
+https://www.behance.net/omidirantoheeb
 
-##  Featured Work
-- Portfolio Website (this repo)
-- case studies of my designed projects (https://www.behance.net/omidirantoheeb)
+# Goal
+To bridge product thinking and frontend engineering by building usable, scalable, and production-ready digital experiences.
 
-##  Goal
-To bridge the gap between design and development by creating usable, production-ready interfaces.
+# Contact
+GitHub: https://github.com/Ezebrown
+Email: omidirantoheeb@gmail.com
 
-##  Contact
-- GitHub: https://github.com/Ezebrown
-- Email: omidirantoheeb@gmail.com
-
-Built with design thinking + frontend execution 🚀
+Built with design thinking + frontend execution

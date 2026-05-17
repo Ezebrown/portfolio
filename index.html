@@ -4,14 +4,13 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="author" content="Omidiran Toheeb">
-  <meta name="description" content="Omidiran Toheeb — Product Designer turning user insights into growth-focused digital experiences.">
-  <title>Omidiran Toheeb | Product Designer</title>
+  <meta name="description" content="Omidiran Toheeb — Product Designer & Frontend Developer turning user insights into growth-focused digital experiences.">
+  <title>Omidiran Toheeb | Designer & Frontend Developer</title>
   <link rel="icon" type="image/png" href="img/toheeb.png">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400&family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;1,9..40,300&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
-  <script src="main.js"></script>
 </head>
 <body>
 
@@ -19,7 +18,9 @@
   <nav class="nav" id="nav">
     <a href="index.html" class="nav__logo">OT.</a>
     <ul class="nav__links">
-      <li><a href="index.html" class="nav__link nav__link--active">Work</a></li>
+      <li><a href="index.html" class="nav__link nav__link--active">Home</a></li>
+      <li><a href="design.html" class="nav__link">Design</a></li>
+      <li><a href="frontend.html" class="nav__link">Frontend</a></li>
       <li><a href="about.html" class="nav__link">About</a></li>
       <li><a href="contact.html" class="nav__link nav__link--cta">Let's Talk</a></li>
     </ul>
@@ -31,47 +32,50 @@
   <!-- ========== HERO ========== -->
   <header class="hero">
     <div class="hero__inner">
-      <p class="hero__label fade-up">Product Designer · Nigeria</p>
+      <p class="hero__label fade-up">Product Designer &amp; Frontend Developer</p>
       <h1 class="hero__heading fade-up fade-up--delay-1">
-        Turning user insights<br>
-        into <em>growth-focused</em><br>
-        digital experiences.
+        Designing experiences,<br>
+        <em>Engineering</em> them too.
       </h1>
       <p class="hero__sub fade-up fade-up--delay-2">
-        I design user-centered products that align business goals<br class="br-desk"> with real user needs — from research to execution.
+        I’m Toheeb, a Product Designer and Frontend Developer who bridges the gap between thoughtful product design and real, working frontend code. From user research and strategy to pixel-perfect execution, I design and build digital experiences that are both intuitive and functional.
+
       </p>
       <div class="hero__actions fade-up fade-up--delay-3">
-        <a href="#work" class="btn btn--primary">View Selected Work</a>
-        <a href="about.html" class="btn btn--ghost">About Me</a>
+        <a href="design.html" class="btn btn--primary">View Design Work</a>
+        <a href="frontend.html" class="btn btn--ghost">View Frontend Projects</a>
       </div>
     </div>
-    <div class="hero__scroll-indicator" aria-hidden="true">
-    </div>
+    <div class="hero__scroll-indicator" aria-hidden="true"></div>
   </header>
 
   <!-- ========== AVAILABILITY STRIP ========== -->
-  <div class="strip">
+  <!-- <div class="strip">
     <div class="strip__inner">
       <span class="strip__dot"></span>
       <span>Available for new projects</span>
       <span class="strip__sep">·</span>
       <span>Based in Nigeria</span>
+      <span class="strip__sep">·</span>
+      <span>Open to remote roles</span>
     </div>
-  </div>
+  </div> -->
 
   <main>
 
-    <!-- ========== ABOUT SNIPPET ========== -->
+    <!-- ========== ABOUT SNAPSHOT ========== -->
     <section class="about-snap section">
       <div class="about-snap__inner">
         <div class="about-snap__text">
           <span class="section-label">Hello, I'm Toheeb</span>
           <p class="about-snap__body">
-            A Product Designer with a background in Digital Media Technology. I combine research, product strategy, and structured design thinking to simplify complex problems and deliver measurable outcomes — building experiences that drive growth, improve usability, and create long-term value.
+            A Product Designer and Frontend Developer with a background in Digital Media Technology, focused on creating thoughtful digital experiences from concept to implementation. I combine research, product strategy, and structured design thinking with hands-on frontend development skills to design and build intuitive, functional, and visually engaging interfaces, effectively bridging the gap between product design and development.
           </p>
-          <a href="about.html" class="link-arrow">More about me <svg width="16" height="16" viewBox="0 0 16 16" fill="none"><path d="M3 8h10M9 4l4 4-4 4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg></a>
+          <a href="about.html" class="link-arrow">More about me
+            <svg width="16" height="16" viewBox="0 0 16 16" fill="none"><path d="M3 8h10M9 4l4 4-4 4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </a>
         </div>
-        <div class="about-snap__stats">
+        <!-- <div class="about-snap__stats">
           <div class="stat">
             <span class="stat__number">3+</span>
             <span class="stat__label">Years designing</span>
@@ -80,128 +84,49 @@
             <span class="stat__number">5+</span>
             <span class="stat__label">Projects shipped</span>
           </div>
+        </div> -->
+      </div>
+    </section>
+
+    <!-- ========== DUAL DISCIPLINE CARDS ========== -->
+    <section class="disciplines section">
+      <div class="disciplines__inner">
+        <div class="disciplines__header">
+          <span class="section-label">What I Do</span>
+          <h2 class="section-heading">Two disciplines,<br>one <em>unified</em> vision.</h2>
         </div>
-      </div>
-    </section>
+        <div class="disciplines__cards">
 
-    <!-- ========== WORK ========== -->
-    <section class="work section" id="work">
-      <div class="work__header">
-        <span class="section-label">Selected Projects</span>
-        <h2 class="section-heading">Work that performs,<br>not just impresses.</h2>
-      </div>
-
-      <div class="projects">
-
-        <article class="project-card project-card--featured" data-index="01">
-          <a href="https://www.behance.net/gallery/242939129/ROUTE" target="_blank" rel="noopener" class="project-card__link">
-            <div class="project-card__img-wrap">
-              <img src="img/route.png" alt="ROUTE — Auto split payment app" class="project-card__img" loading="lazy">
-              <div class="project-card__overlay">
-                <span class="project-card__cta">View on Behance <svg width="14" height="14" viewBox="0 0 16 16" fill="none"><path d="M3 13L13 3M13 3H6M13 3v7" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg></span>
-              </div>
+          <div class="discipline-card">
+            <div class="discipline-card__num">01</div>
+            <div class="discipline-card__icon">
+              <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+                <rect x="3" y="3" width="18" height="18" rx="2"/>
+                <path d="M9 9h6M9 12h4M9 15h5"/>
+              </svg>
             </div>
-            <div class="project-card__info">
-              <div class="project-card__meta">
-                <span class="project-card__tag">Mobile App</span>
-                <span class="project-card__tag">Fintech</span>
-              </div>
-              <h3 class="project-card__title">ROUTE</h3>
-              <p class="project-card__desc">A mobile app that simplifies group payments by allowing users to split bills seamlessly and track shared expenses in real time.</p>
-            </div>
-          </a>
-        </article>
-
-        <article class="project-card" data-index="02">
-          <a href="https://www.behance.net/gallery/242295495/BAMBI" target="_blank" rel="noopener" class="project-card__link">
-            <div class="project-card__img-wrap">
-              <img src="img/bambi.png" alt="BAMBI — Travel and booking app" class="project-card__img" loading="lazy">
-              <div class="project-card__overlay">
-                <span class="project-card__cta">View on Behance <svg width="14" height="14" viewBox="0 0 16 16" fill="none"><path d="M3 13L13 3M13 3H6M13 3v7" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg></span>
-              </div>
-            </div>
-            <div class="project-card__info">
-              <div class="project-card__meta">
-                <span class="project-card__tag">Mobile App</span>
-                <span class="project-card__tag">Hospitality</span>
-              </div>
-              <h3 class="project-card__title">BAMBI</h3>
-              <p class="project-card__desc">A travel and booking app that streamlines planning and booking trips with an intuitive, delightful user experience.</p>
-            </div>
-          </a>
-        </article>
-
-        <article class="project-card" data-index="03">
-          <a href="https://www.behance.net/gallery/244208073/Jupcard" target="_blank" rel="noopener" class="project-card__link">
-            <div class="project-card__img-wrap">
-              <img src="img/jupcard.png" alt="Jupcard — Web3 gifting platform" class="project-card__img" loading="lazy">
-              <div class="project-card__overlay">
-                <span class="project-card__cta">View on Behance <svg width="14" height="14" viewBox="0 0 16 16" fill="none"><path d="M3 13L13 3M13 3H6M13 3v7" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg></span>
-              </div>
-            </div>
-            <div class="project-card__info">
-              <div class="project-card__meta">
-                <span class="project-card__tag">Web Platform</span>
-                <span class="project-card__tag">Web3</span>
-              </div>
-              <h3 class="project-card__title">JUPCARD</h3>
-              <p class="project-card__desc">A Web3 gifting platform enabling users to send and receive digital gifts using blockchain technology with a frictionless UX.</p>
-            </div>
-          </a>
-
-        </article>
-        <article class="project-card" data-index="03">
-          <a href="https://www.behance.net/gallery/248958671/Rheo" target="_blank" rel="noopener" class="project-card__link">
-            <div class="project-card__img-wrap">
-              <img src="img/rheo.jpg" alt="RHEO — Global money movement platform" class="project-card__img" loading="lazy">
-              <div class="project-card__overlay">
-                <span class="project-card__cta">View on Behance <svg width="14" height="14" viewBox="0 0 16 16" fill="none"><path d="M3 13L13 3M13 3H6M13 3v7" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg></span>
-              </div>
-            </div>
-            <div class="project-card__info">
-              <div class="project-card__meta">
-                <span class="project-card__tag">mobile app</span>
-                <span class="project-card__tag">fintech</span>
-              </div>
-              <h3 class="project-card__title">RHEO</h3>
-              <p class="project-card__desc">A global money movement platform that lets you send and receive money across borders instantly using real exchange rates and transparent fees.</p>
-            </div>
-          </a>
-        </article>
-
-      </div>
-
-      <div class="work__footer">
-        <a href="https://www.behance.net/omidirantoheeb" target="_blank" rel="noopener" class="btn btn--ghost">View all on Behance <svg width="14" height="14" viewBox="0 0 16 16" fill="none"><path d="M3 13L13 3M13 3H6M13 3v7" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg></a>
-      </div>
-    </section>
-
-    <!-- ========== PROCESS ========== -->
-    <section class="process section">
-      <div class="process__inner">
-        <span class="section-label">How I Work</span>
-        <h2 class="section-heading">Design that's grounded<br>in strategy.</h2>
-        <div class="process__steps">
-          <div class="process__step">
-            <span class="process__num">01</span>
-            <h3>Discover</h3>
-            <p>User research, stakeholder interviews, competitive analysis to uncover real problems worth solving.</p>
+            <h3 class="discipline-card__title">Product Design</h3>
+            <p class="discipline-card__desc">User research, product strategy, wireframes, and high-fidelity UI, designing experiences that solve real problems and drive measurable outcomes.</p>
+            <a href="design.html" class="discipline-card__cta btn btn--primary">View Design Work
+              <svg width="14" height="14" viewBox="0 0 16 16" fill="none"><path d="M3 8h10M9 4l4 4-4 4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            </a>
           </div>
-          <div class="process__step">
-            <span class="process__num">02</span>
-            <h3>Define</h3>
-            <p>Synthesise insights into clear problem statements, user journeys, and prioritised opportunities.</p>
+
+          <div class="discipline-card discipline-card--alt">
+            <div class="discipline-card__num">02</div>
+            <div class="discipline-card__icon">
+              <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+                <polyline points="16 18 22 12 16 6"/>
+                <polyline points="8 6 2 12 8 18"/>
+              </svg>
+            </div>
+            <h3 class="discipline-card__title">Frontend Development</h3>
+            <p class="discipline-card__desc">Building real, working interfaces with HTML, CSS, and JavaScript, turning designs into production-ready code that lives in the browser.</p>
+            <a href="frontend.html" class="discipline-card__cta btn btn--ghost">View Frontend Projects
+              <svg width="14" height="14" viewBox="0 0 16 16" fill="none"><path d="M3 8h10M9 4l4 4-4 4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            </a>
           </div>
-          <div class="process__step">
-            <span class="process__num">03</span>
-            <h3>Design</h3>
-            <p>Wireframes to high-fidelity prototypes with scalable design systems built for real-world delivery.</p>
-          </div>
-          <div class="process__step">
-            <span class="process__num">04</span>
-            <h3>Deliver</h3>
-            <p>Close collaboration with engineering to ensure pixel-perfect, implementation-ready outcomes.</p>
-          </div>
+
         </div>
       </div>
     </section>
@@ -210,7 +135,7 @@
     <section class="cta-band section">
       <div class="cta-band__inner">
         <h2 class="cta-band__heading">Have a project in mind?</h2>
-        <p class="cta-band__sub">I'm open to full-time roles, freelance projects, and consulting engagements.</p>
+        <p class="cta-band__sub">I'm open to full-time roles, freelance projects in design, frontend, or both.</p>
         <a href="contact.html" class="btn btn--primary btn--lg">Let's work together</a>
       </div>
     </section>
@@ -222,10 +147,11 @@
     <div class="footer__inner">
       <div class="footer__brand">
         <a href="index.html" class="footer__logo">OT.</a>
-        <p>Product Designer · Nigeria</p>
+        <p>Product Designer &amp; Frontend Developer</p>
       </div>
       <nav class="footer__nav">
-        <a href="index.html">Work</a>
+        <a href="design.html">Design</a>
+        <a href="frontend.html">Frontend</a>
         <a href="about.html">About</a>
         <a href="contact.html">Contact</a>
       </nav>
@@ -242,6 +168,9 @@
         <a href="https://www.instagram.com/gmnxy__" target="_blank" rel="noopener" aria-label="Instagram">
           <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"/><path fill="var(--bg)" d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5" stroke="var(--bg)" stroke-width="2"/></svg>
         </a>
+        <a href="https://github.com/Ezebrown" target="_blank" rel="noopener" aria-label="GitHub">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C6.477 2 2 6.484 2 12.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.531 1.032 1.531 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0 1 12 6.844a9.59 9.59 0 0 1 2.504.337c1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.202 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.943.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.02 10.02 0 0 0 22 12.017C22 6.484 17.522 2 12 2z"/></svg>
+        </a>
       </div>
     </div>
     <div class="footer__bottom">
@@ -249,7 +178,6 @@
     </div>
   </footer>
 
-  <!-- ========== CHAT WIDGET ========== -->
   <a href="contact.html" class="chat-widget" aria-label="Contact me" title="Let's talk">
     <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg>
   </a>

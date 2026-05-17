@@ -36,7 +36,7 @@ if (toggle && navLinks) {
 
 // -------- SCROLL REVEAL --------
 const reveals = document.querySelectorAll(
-  '.project-card, .phil-card, .strength-item, .process__step, .stat, .focus__list li'
+  '.project-card, .phil-card, .strength-item, .process__step, .stat, .focus__list li, .discipline-card, .lang-badge'
 );
 
 if ('IntersectionObserver' in window && reveals.length) {
